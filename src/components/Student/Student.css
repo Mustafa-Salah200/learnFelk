@@ -1,0 +1,33 @@
+
+.student_container {
+    background-color:  var(--bg-color);
+    padding: 40px 0;
+    margin: 40px 0;
+}
+.student {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 40px;
+}
+.student .student_box {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 30px;
+}
+.student .student_box .say .top {
+    display: flex;
+    gap: 20px;
+    margin: 13px 0;
+}
+.student .student_box .say .top img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.student .student_box .say h2{
+    color: var(--secondary-color);
+}
+.student .student_box .say p{
+    color: #1d1d1d;
+}
